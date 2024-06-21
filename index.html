@@ -4,6 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product review page</title>
+    <style>
+        #main-product-img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10 0 rgba(0,0,0,0.25);
+    margin: 20px auto;
+    display: block;
+}
+
+.product-imgs-container{
+    display: flex;
+    justify-content: center;
+}
+
+.product-img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    
+
+}
+.product-details{
+    margin-left: 450px;
+
+}
+.product-name{
+    font-weight: bold;
+    color: rgb(36, 121, 173);
+    font-size: 30px;
+}
+.price{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(36, 121, 173);
+}
+.info{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(36, 121, 173);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.buy-btn{
+    background-color: rgb(36, 121, 173);;
+    cursor: pointer;
+    width: 150px ;
+    height: 50px;
+    border-radius: 50px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.buy-btn:hover{
+    background-color: rgba(255, 255, 0, 0.549) ;
+    color: black;
+}
+.addtocart{
+    background-color: rgb(36, 121, 173);;
+    margin-left: 30px;
+    width: 150px ;
+    height: 50px;
+    border-radius: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addtocart:hover{
+    background-color: rgba(255, 255, 0, 0.549) ;
+    color: black;
+}
+
+    </style>
     <body>
         <img src="./jorden1.webp" id="main-product-img"/>
 
